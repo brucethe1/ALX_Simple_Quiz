@@ -1,6 +1,6 @@
 function checkAnswer(){
- const solution='4';
-  const answer =document.querySelector('input[name="quiz"]:checked').value;
+ const correctAnswer='4';
+  const userAnswer=document.querySelector('input[name="quiz"]:checked').value;
   if(answer == solution){
      const feedback=document.querySelector('#feedback');
     feedback.textContent='correct well done!';
